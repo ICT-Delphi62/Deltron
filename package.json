@@ -1,20 +1,24 @@
 {
-  "name": "discord-js",
+  "name": "deltron",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "tsc": "tsc -w --skipLibCheck"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ICT-Delphi62/Deltron.git"
+  },
+  "author": "Refki",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ICT-Delphi62/Deltron/issues"
+  },
+  "homepage": "https://github.com/ICT-Delphi62/Deltron#readme",
   "dependencies": {
     "discord.js": "^13.3.1",
-    "dotenv": "^10.0.0"
-  },
-  "devDependencies": {
-    "typescript": "^4.5.2"
+    "dotenv": "^10.0.0",
+    "fs": "^0.0.1-security"
   }
 }
